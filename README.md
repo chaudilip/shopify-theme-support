@@ -1,6 +1,6 @@
 # shopify-theme-support
 
-Public documentation and support tracker for Shopify themes by Roqel.
+Public documentation and support tracker for Shopify themes by Syrek Studio.
 
 The published site lives at
 <https://chaudilip.github.io/shopify-theme-support/>, built from this branch by

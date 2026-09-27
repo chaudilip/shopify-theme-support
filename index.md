@@ -1,6 +1,6 @@
 # Theme support
 
-Documentation and support for Shopify themes by Roqel.
+Documentation and support for Shopify themes by Syrek Studio.
 
 ## Themes
 
@@ -9,6 +9,7 @@ Documentation and support for Shopify themes by Roqel.
 
 ## Getting help
 
-Each theme has its own support page, linked from its documentation. To report
-a problem directly, open an issue and name the theme in the title:
-[github.com/chaudilip/shopify-theme-support/issues](https://github.com/chaudilip/shopify-theme-support/issues)
+Each theme has its own support page, linked from its documentation.
+
+- **Email:** [syrek.studio@gmail.com](mailto:syrek.studio@gmail.com). Name the theme in the subject line.
+- **Open an issue:** [github.com/chaudilip/shopify-theme-support/issues](https://github.com/chaudilip/shopify-theme-support/issues)

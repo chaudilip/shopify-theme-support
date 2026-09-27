@@ -29,9 +29,10 @@ where relevant.
 
 See the **[support page](support)** for what to send and what support covers.
 
+- **Email:** [syrek.studio@gmail.com](mailto:syrek.studio@gmail.com)
 - **Open an issue:** [github.com/chaudilip/shopify-theme-support/issues](https://github.com/chaudilip/shopify-theme-support/issues)
 
-Issues are answered in the order they arrive.
+Messages are answered in the order they arrive.
 
 ## Version
 

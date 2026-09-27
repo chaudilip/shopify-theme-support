@@ -15,7 +15,8 @@ Most questions are answered in one of these:
 
 ## Contact
 
-**Open an issue:** [github.com/chaudilip/shopify-theme-support/issues](https://github.com/chaudilip/shopify-theme-support/issues)
+- **Email:** [syrek.studio@gmail.com](mailto:syrek.studio@gmail.com)
+- **Open an issue:** [github.com/chaudilip/shopify-theme-support/issues](https://github.com/chaudilip/shopify-theme-support/issues)
 
 Please include:
 
@@ -24,7 +25,7 @@ Please include:
 - the page where the problem shows, and a screenshot
 - what you expected to happen, and what happened instead
 
-Issues are answered in the order they arrive.
+Messages are answered in the order they arrive.
 
 ## What support covers
 
