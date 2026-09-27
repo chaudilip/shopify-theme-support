@@ -15,6 +15,7 @@ Most questions are answered in one of these:
 
 ## Contact
 
+- **Support form:** [Contact support](https://docs.google.com/forms/d/e/1FAIpQLSdB-FFv2APHTDcJnUIf0TXbXRNwBxA1zIPKBBR5h4QzQFmATg/viewform)
 - **Email:** [syrek.studio@gmail.com](mailto:syrek.studio@gmail.com)
 - **Open an issue:** [github.com/chaudilip/shopify-theme-support/issues](https://github.com/chaudilip/shopify-theme-support/issues)
 
@@ -25,7 +26,7 @@ Please include:
 - the page where the problem shows, and a screenshot
 - what you expected to happen, and what happened instead
 
-Messages are answered in the order they arrive.
+We reply within two business days.
 
 ## What support covers
 
