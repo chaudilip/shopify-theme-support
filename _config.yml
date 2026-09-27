@@ -1,0 +1,7 @@
+title: Larder theme support
+description: Setup guide and documentation for the Larder Shopify theme.
+theme: jekyll-theme-cayman
+# Internal build notes must never be published here.
+exclude:
+  - PACKAGING.md
+  - README-internal.md
