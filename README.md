@@ -8,7 +8,7 @@ GitHub Pages.
 
 Each theme has its own folder:
 
-- `larder/` — Larder
+- `stillroom/` — Stillroom
   - `index.md` — landing page
   - `setup.md` — merchant setup guide
   - `custom-data.md` — metafield / custom data guide

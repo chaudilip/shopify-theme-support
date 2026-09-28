@@ -1,7 +1,7 @@
-# Setting up Larder
+# Setting up Stillroom
 
 A step-by-step guide for getting your store looking right after installing
-the Larder theme. No coding involved — everything here happens in **Online
+the Stillroom theme. No coding involved — everything here happens in **Online
 Store → Themes → Customize** (the theme editor) or elsewhere in Shopify
 admin.
 
@@ -38,7 +38,7 @@ you connect data to them, and that guide walks through it.
 ## 1. First run
 
 After installing the theme (but before publishing it), open **Online Store →
-Themes**, find Larder in your theme library, and click **Customize**. This
+Themes**, find Stillroom in your theme library, and click **Customize**. This
 opens the theme editor, where every change previews live and nothing goes
 public until you click **Publish**.
 
@@ -240,7 +240,7 @@ left-hand section list in the theme editor) → **Branding**:
 
 ## 5. Choosing colors
 
-Larder ships four **color schemes** under **Theme settings → Colors**.
+Stillroom ships four **color schemes** under **Theme settings → Colors**.
 Each section on your store uses one of the four via its own **Colors**
 setting, so you don't need to touch the schemes themselves to reassign
 where each palette shows up — but if you do want to rebrand, edit the
@@ -360,7 +360,7 @@ Your homepage is built from sections, top to bottom, in the theme editor.
 Click **Add section** at the point in the list where you want a new one, or
 drag existing sections to reorder them.
 
-Larder ships **26 sections** you can add. Twenty-four of them can go on the
+Stillroom ships **26 sections** you can add. Twenty-four of them can go on the
 homepage; the remaining two are restricted by design — the **Announcement
 bar** is only available in the Header group (see section 3), and **Product
 recommendations** only on product pages. Everything else below can be added
@@ -497,7 +497,7 @@ it, for the same purpose at a smaller scale.
 ## 9. Your story page
 
 Every shop needs an about page, and a page with nothing but a heading and three
-paragraphs is the one most likely to be skipped. Larder ships a ready-made
+paragraphs is the one most likely to be skipped. Stillroom ships a ready-made
 layout for it.
 
 1. In Shopify admin go to **Online Store → Pages → Add page**.
@@ -635,7 +635,7 @@ render.
 standard commerce blocks (Title, Price, Vendor, Inventory status, Pickup
 availability, Variant picker, Quantity selector, Buy buttons, Description,
 Share) and the
-Larder-specific data blocks (Nutrition panel, Ingredients, Dietary badges,
+Stillroom-specific data blocks (Nutrition panel, Ingredients, Dietary badges,
 Allergen notice, Storage info, Origin, Delivery estimate), plus Custom
 Liquid and any app blocks you've installed.
 
@@ -713,7 +713,7 @@ Things to know:
 ### Pre-order
 
 A pre-order lets shoppers buy a product that is out of stock now and will
-ship later. Larder reads Shopify's own inventory settings to decide what is a
+ship later. Stillroom reads Shopify's own inventory settings to decide what is a
 pre-order. There is no app to install and no tag to add.
 
 **When a variant is a pre-order**

@@ -1,13 +1,13 @@
-# Larder support
+# Stillroom support
 
-Help with the Larder theme: setting it up, a setting that does not behave as
+Help with the Stillroom theme: setting it up, a setting that does not behave as
 the guide describes, or something that looks wrong on your store.
 
 ## Before you write
 
 Most questions are answered in one of these:
 
-- **[Setting up Larder](setup)** — the full setup guide. Its
+- **[Setting up Stillroom](setup)** — the full setup guide. Its
   [Troubleshooting](setup#13-troubleshooting) section covers the questions asked
   most often.
 - **[Custom data](custom-data)** — nutrition panels, ingredients, dietary
@@ -22,7 +22,7 @@ Most questions are answered in one of these:
 Please include:
 
 - your store URL
-- the theme version (this documentation covers Larder **1.1.0**)
+- the theme version (this documentation covers Stillroom **1.1.0**)
 - the page where the problem shows, and a screenshot
 - what you expected to happen, and what happened instead
 

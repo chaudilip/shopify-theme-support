@@ -1,13 +1,13 @@
 # Custom data: nutrition, ingredients, dietary badges, and more
 
-Larder's food-specific features — the nutrition panel, ingredients list,
+Stillroom's food-specific features — the nutrition panel, ingredients list,
 dietary badges, allergen notice, storage info, origin note, delivery
 estimate, the pre-order ship date, and the recipe feature — are all powered
 by **custom data** you add in Shopify admin. This guide explains what that is, why the theme needs you
 to set it up, and exactly how to do it.
 
 **Read this before you conclude anything is broken.** A brand-new install of
-Larder shows none of these panels, and that is correct, expected behavior —
+Stillroom shows none of these panels, and that is correct, expected behavior —
 not a bug. Every single one of these blocks is written to render nothing at
 all when it has no data connected, specifically so a store that doesn't sell
 food, or hasn't entered this data yet, still gets a clean, normal-looking
@@ -15,14 +15,14 @@ product page instead of a page full of empty boxes. Nothing is broken. You
 turn each one on by connecting data to it, at your own pace, one product (or
 all of them, via a CSV/API import) at a time.
 
-The companion guide **Setting up Larder** covers everything else: sections,
+The companion guide **Setting up Stillroom** covers everything else: sections,
 colors, fonts, menus and the product page block list.
 
 ## Contents
 
 1. [What is a metafield?](#1-what-is-a-metafield)
 2. [The theme works without any of this](#2-the-theme-works-without-any-of-this)
-3. [The ten metafields Larder reads](#3-the-ten-metafields-larder-reads)
+3. [The ten metafields Stillroom reads](#3-the-ten-metafields-stillroom-reads)
 4. [Creating a metafield definition](#4-creating-a-metafield-definition)
 5. [Binding a metafield to a block with dynamic source](#5-binding-a-metafield-to-a-block-with-dynamic-source)
 6. [Dietary badges: two features, two metafields](#6-dietary-badges-two-features-two-metafields)
@@ -45,26 +45,26 @@ instead of just typing it into the description as plain text.
 Every metafield has three things you need to get right, and the theme names
 all three for you in the editor:
 
-- a **namespace** — a grouping name. All of Larder's are `custom`, which is
+- a **namespace** — a grouping name. All of Stillroom's are `custom`, which is
   what Shopify assigns by default.
 - a **key** — the field's own name, like `ingredients`.
 - a **type** — Rich text, Single line text, and so on.
 
 You may also see **metaobjects** mentioned in Shopify's admin. A metaobject
-is a custom record type you design yourself. **Larder's product blocks do not
+is a custom record type you design yourself. **Stillroom's product blocks do not
 read metaobjects** — every one of them reads a plain product metafield. There
 is one optional exception for product-card badges, covered in
 [section 6](#6-dietary-badges-two-features-two-metafields).
 
 ## 2. The theme works without any of this
 
-Worth repeating on its own: install Larder, publish it, and your store works
+Worth repeating on its own: install Stillroom, publish it, and your store works
 completely normally with zero custom data set up. Every block this guide
 covers checks whether it has data before rendering anything, and quietly
 renders nothing if it doesn't. You can set this up for one flagship product
 today and leave the rest for later — nothing else on the site depends on it.
 
-## 3. The ten metafields Larder reads
+## 3. The ten metafields Stillroom reads
 
 These are the exact definitions the theme's own help text names, inside the
 theme editor, on each block. **Create them with these namespaces, keys and
@@ -90,7 +90,7 @@ The two dietary rows are not a duplication — see
 `preorder_ship_date` is optional, and it is the one metafield in this table
 you do not connect to a block. The theme reads it directly. It is used only
 on products sold as a pre-order, and a date that has passed is ignored. The
-**Setting up Larder** guide covers pre-orders in full, under "Pre-order".
+**Setting up Stillroom** guide covers pre-orders in full, under "Pre-order".
 
 You do not have to create all ten, and you do not have to create any of them
 in a particular order. Create the ones you'll use; each block stays invisible
@@ -124,7 +124,7 @@ the panel. Turn it off if that sentence doesn't apply where you sell.
 
 **Themes cannot create these definitions themselves** — only a merchant
 (via admin) or an app can. That's a Shopify platform limitation, not
-something specific to Larder, and it's exactly why this guide exists: the
+something specific to Stillroom, and it's exactly why this guide exists: the
 theme ships ready to *display* this data the moment you connect it, but it
 can't create the fields for you first.
 
@@ -134,7 +134,7 @@ can't create the fields for you first.
    editor. It can be anything readable, e.g. "Ingredients".
 4. Check the **Namespace and key** underneath. Shopify generates one from the
    name; click **Edit** if it doesn't match the table in
-   [section 3](#3-the-ten-metafields-larder-reads). Typing "Ingredients"
+   [section 3](#3-the-ten-metafields-stillroom-reads). Typing "Ingredients"
    normally lands on `custom.ingredients` on its own, but confirm it rather
    than assume.
 5. Choose the **Content type** — Rich text, Single line text, Date, and so
@@ -160,7 +160,7 @@ specific click, not a dropdown.
    editor, or click through from a product in the preview).
 3. In the section list on the left, find the block you want to connect —
    e.g. **Ingredients**. If it isn't already on the page, click **Add
-   block** first and add it. The **Setting up Larder** guide has the general
+   block** first and add it. The **Setting up Stillroom** guide has the general
    add/reorder steps.
 4. Click the block to open its settings panel. Under the content field you'll
    see the theme's own note naming the exact metafield that field expects —

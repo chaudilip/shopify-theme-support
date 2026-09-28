@@ -4,7 +4,7 @@ Documentation and support for Shopify themes by Syrek Studio.
 
 ## Themes
 
-- **[Larder](larder/)** — a theme for small-batch food, condiment and pantry
+- **[Stillroom](stillroom/)** — a theme for small-batch food, condiment and pantry
   shops.
 
 ## Getting help
