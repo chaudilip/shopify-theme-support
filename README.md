@@ -8,7 +8,7 @@ GitHub Pages.
 
 Each theme has its own folder:
 
-- `stillroom/` — Stillroom
+- `scullery/` — Scullery
   - `index.md` — landing page
   - `setup.md` — merchant setup guide
   - `custom-data.md` — metafield / custom data guide

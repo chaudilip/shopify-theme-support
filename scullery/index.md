@@ -1,11 +1,11 @@
-# Stillroom theme support
+# Scullery theme support
 
-Documentation for **Stillroom**, a Shopify theme for small-batch food, condiment
+Documentation for **Scullery**, a Shopify theme for small-batch food, condiment
 and pantry shops.
 
 ## Guides
 
-- **[Setting up Stillroom](setup)** — everything from installing the theme to
+- **[Setting up Scullery](setup)** — everything from installing the theme to
   arranging your home page, with no coding involved.
 - **[Custom data](custom-data)** — nutrition panels, ingredients, dietary
   badges, allergen notices and storage info, using Shopify metafields.
@@ -24,7 +24,7 @@ Each of these is covered inside the setup guide.
 ## Getting help
 
 Please include your store URL, the theme version (**Online Store → Themes →
-Stillroom → ⋯ → Edit code**, see `config/settings_schema.json`) and a screenshot
+Scullery → ⋯ → Edit code**, see `config/settings_schema.json`) and a screenshot
 where relevant.
 
 See the **[support page](support)** for what to send and what support covers.
@@ -37,4 +37,4 @@ We reply within two business days.
 
 ## Version
 
-This documentation covers Stillroom **1.1.0**.
+This documentation covers Scullery **1.1.0**.

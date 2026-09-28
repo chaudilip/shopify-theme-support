@@ -4,7 +4,7 @@ Documentation and support for Shopify themes by Syrek Studio.
 
 ## Themes
 
-- **[Stillroom](stillroom/)** — a theme for small-batch food, condiment and pantry
+- **[Scullery](scullery/)** — a theme for small-batch food, condiment and pantry
   shops.
 
 ## Getting help
