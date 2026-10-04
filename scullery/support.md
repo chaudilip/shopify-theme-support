@@ -1,17 +1,19 @@
 # Scullery support
 
-Help with the Scullery theme: setting it up, a setting that does not behave as
-the guide describes, or something that looks wrong on your store.
+Help with the Scullery theme by Syrek Studio: setting it up, a setting that
+does not behave as the guide describes, or something that looks wrong on
+your store.
 
 ## Before you write
 
 Most questions are answered in one of these:
 
-- **[Setting up Scullery](setup)** — the full setup guide. Its
-  [Troubleshooting](setup#13-troubleshooting) section covers the questions asked
-  most often.
-- **[Custom data](custom-data)** — nutrition panels, ingredients, dietary
-  badges and the other product details that use Shopify metafields.
+- **[Setting up Scullery](setup)**: the full setup guide. Its
+  [FAQ and troubleshooting](setup#16-faq-and-troubleshooting) section covers
+  the questions asked most often.
+- **[Custom data](custom-data)**: tasting notes, particulars, ingredients,
+  nutrition, allergens and recipe links. If a product detail is not
+  showing, the product most likely has no data for it yet.
 
 ## Contact
 
@@ -22,7 +24,7 @@ Most questions are answered in one of these:
 Please include:
 
 - your store URL
-- the theme version (this documentation covers Scullery **1.1.0**)
+- the theme version (this documentation covers Scullery **2.0.0**)
 - the page where the problem shows, and a screenshot
 - what you expected to happen, and what happened instead
 
