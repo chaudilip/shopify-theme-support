@@ -26,7 +26,7 @@ nutrition and recipes** explains how.
    - [Back to top button](#back-to-top-button)
 3. [Notice bar](#3-notice-bar)
 4. [Logo, brand name, favicon and social sharing image](#4-logo-brand-name-favicon-and-social-sharing-image)
-5. [Colour schemes](#5-colour-schemes)
+5. [Color schemes](#5-color-schemes)
 6. [Typography](#6-typography)
 7. [Layout, product entries and motion](#7-layout-product-entries-and-motion)
 8. [Home page sections](#8-home-page-sections)
@@ -54,7 +54,7 @@ nutrition and recipes** explains how.
    The home page arrives with its sections in place and sample wording, but
    no products, collections, photographs or films are chosen. Each empty
    picker shows a placeholder drawing until you fill it.
-3. Work roughly in this order: logo and menus, colour schemes and type
+3. Work roughly in this order: logo and menus, color schemes and type
    (they affect every page), the home page, then the product page.
 4. Point **Theme settings → Product entries → Recipes blog** at the blog
    that holds your recipes, if you have one. Several sections read it.
@@ -83,14 +83,14 @@ Settings in **Spine and folio**:
 
 | Setting | What it does |
 |---|---|
-| Spine colour scheme | Defaults to the cobalt scheme. |
+| Spine color scheme | Defaults to the cobalt scheme. |
 | Spine logo | Optional light version of your logo for the cobalt rail. Empty: the main logo is used, or your shop name in the display typeface. |
 | Logo on the spine | Turned to run up the spine, or upright. |
 | Menu | The folio shows its top-level links; the whole menu, sub-items included, is the Index drawer. Default `main-menu`. |
 | Show the menu's links in the folio | Wide screens only. Phones always use the Index drawer. |
 | Home page line | A line shown in the folio on the home page and at the foot of the Index drawer. |
 | Show account link / Account menu handle | The account link, and the menu Shopify shows inside the account sheet. |
-| Index colour scheme | Colours of the Index drawer. |
+| Index color scheme | Colors of the Index drawer. |
 | Default photograph | Shown beside the index on wide screens. Collections, products and articles in the menu show their own photograph when pointed at. |
 | Show country and language selector / Show social links | Inside the Index drawer. The selector appears only when you sell in more than one country or language. |
 
@@ -166,9 +166,9 @@ reduced motion.
   image of at least 180 × 180 with a solid background.
 - **Social sharing image**: used when a page has no image of its own.
 
-## 5. Colour schemes
+## 5. Color schemes
 
-**Theme settings → Colours.** Every section has a **Colour scheme** setting
+**Theme settings → Colors.** Every section has a **Color scheme** setting
 and picks one of the schemes; edit a scheme to restyle every section that
 uses it. Each scheme has six roles:
 
@@ -178,7 +178,7 @@ uses it. Each scheme has six roles:
 | Second paper | Behind photographs, panels and open drawers |
 | Ink | Text and strong rules |
 | Soft ink | Captions, labels and secondary text |
-| Accent | Catalogue numbers, active states, the spine, tabs |
+| Accent | Catalog numbers, active states, the spine, tabs |
 | Text on accent | Text and icons on the accent |
 
 Hairlines are ink at low strength and are derived for you.
@@ -192,9 +192,9 @@ Scullery ships four schemes:
 | `scheme-3` Ink | `#15181D` (dark) | `#F5F3EC` | `#9DB0FF` |
 | `scheme-4` Cobalt | cobalt `#1F3BCB` | `#F5F3EC` | `#F5F3EC` |
 
-The accent is the one signal colour. Keep it the same across schemes that
+The accent is the one signal color. Keep it the same across schemes that
 share a page, and use a whole scheme (for example Cobalt) when a section
-should stand on a coloured ground. Two contrast rules, which the editor
+should stand on a colored ground. Two contrast rules, which the editor
 repeats: the **Accent** must reach 4.5:1 against **Paper**, and **Text on
 accent** must reach 4.5:1 against the **Accent**. Check both with a
 contrast tool when you change them.
@@ -236,7 +236,7 @@ wherever it appears (shelves, ledgers, search, basket):
 | Setting | Default |
 |---|---|
 | Photograph shape: Portrait 4:5, Square, Tall 3:4 | 4:5 |
-| Show the catalogue number | On |
+| Show the catalog number | On |
 | Show the family (the product type, e.g. Oil) | On |
 | Show tasting notes (from the `flavour` metafield) | On |
 | Show the size (`size` metafield, else the variant title) | On |
@@ -246,6 +246,18 @@ wherever it appears (shelves, ledgers, search, basket):
 | Quick view: opens the entry in a dialog with pictures, options and add button | On |
 | Metafield namespace | `custom` |
 | Recipes blog | (none) |
+
+Under **Wording** on the same page you can name the catalog in your own
+words. Each field left empty uses the theme's wording, translated for the
+shopper's language:
+
+- **Name of the whole catalog**: the title of the page of every product
+  (`/collections/all`) in browser tabs and search results. Empty: "The
+  catalogue". The page's heading uses it too, unless the Catalog section's
+  **Title of the all-products page** is filled in (see *Collections* below).
+- **Title of the collections list**: Empty: "The catalogue, by family".
+- **Product notes label**: what the `flavour` words are called, for example
+  *Tasting notes* or *Finish*. Empty: "Notes".
 
 Products with one variant get an **Add** button on the entry; products with
 several link to their page with **Choose**.
@@ -261,7 +273,7 @@ several link to their page with **Choose**.
 ## 8. Home page sections
 
 Every section below can be added from **Add section** on any page template
-(except where noted), and each has a **Colour scheme** setting. A fresh
+(except where noted), and each has a **Color scheme** setting. A fresh
 install's home page runs: Hero film, Pantry index, Plate, Shelf reel,
 Countdown, Families, Kitchen steps, Statement, Journal collage, Sign-off.
 
@@ -374,23 +386,30 @@ Sign-ups from any form are saved to **Customers** with the tag
 
 ## 10. Collections and Look up results
 
-The **Catalogue** section sets a collection as a catalogue rather than a
+The **Catalog** section sets a collection as a catalog rather than a
 plain grid:
 
+- **Title of the all-products page**: the heading Shopify would otherwise
+  call "Products". Empty: the theme's **Name of the whole catalog**, or "The
+  catalogue". Browser tabs always use the theme setting, so set the name
+  there to keep tab and heading the same.
 - **Show the collection description / image** (the image as a slit).
 - **Families menu**: a strip of tabs, one per link, with entry counts.
-- **Shelf layout**: *Catalogue rhythm* (one feature entry, four standard
+- **Shelf layout**: *Catalog rhythm* (one feature entry, four standard
   entries, three ledger rows, repeating) or *Even shelves*.
 - **Entries per page** and **Opening view**: Shelves or Ledger. Shoppers can
   switch, and their choice is remembered on their device.
-- **Show Refine** (filters, chosen in the **Search & Discovery** app) and
-  **Show sorting**.
+- **Refine and sort**: **Show Refine** (filters, chosen in the **Search &
+  Discovery** app) and **Show sorting**. Both sit on one line above the
+  entries, beside the Shelves | Ledger switch, and work with JavaScript off.
 - **Promo tile** blocks (up to four): a tile set into the grid after a
   chosen product, one or two cells wide, with optional image. Shown on the
   first page only and not while a filter is on.
 
-**Look up results** has the same layout, view, Refine and sorting settings
-and suggests the browse menu when nothing is found.
+**Look up results** has the same layout, view, Refine and sorting settings.
+Under **Before a look-up, and when nothing is found**: **Show entries from
+the shelf** (a **Collection**, all products if none, and **Entries shown**)
+and **Suggest the browse menu**.
 
 ## 11. Product page
 
@@ -410,8 +429,9 @@ Blocks in the label (add, remove and reorder freely):
 | SKU | The selected variant's SKU; hidden when the variant has none, and updated when the variant changes. |
 | Statement | One sentence from the `statement` metafield. |
 | Tasting notes | From the `flavour` metafield. |
-| Variant picker | Colour and image swatches from **Settings → Products → Variants**, optional. |
-| Quantity pricing | Quantity rules and price breaks from a B2B catalogue or price list. |
+| Contents | For a box or a set: the products in its `contents` metafield (a list of products), as numbered rows with photograph, family and size, each linking to its own page. Prints nothing for a product without one. |
+| Variant picker | Color and image swatches from **Settings → Products → Variants**, optional. |
+| Quantity pricing | Quantity rules and price breaks from a B2B catalog or price list. |
 | Quantity selector, Buy buttons | Buy buttons show dynamic checkout, Shop Pay instalments where eligible, gift card recipient fields, and handle pre-order. |
 | Back-in-stock alert | Shown only while the selected variant is sold out. Requests arrive as contact form emails; the customer is tagged `back-in-stock`. |
 | Trust badges | Up to four **Point** blocks (icon and text). |
@@ -481,11 +501,25 @@ separate introduction on the recipes blog and the tags as an index strip.
 and dynamic checkout buttons, and close with a double rule under the total.
 **Enable cart note** adds a note field.
 
+The basket page is a **ledger**: column heads (No., Entry, Qty, Figure) over
+one ruled line per product, the tally across the full width, then the note
+and gift wrap on the left and the way to checkout on the right. On a phone
+the checkout button, which carries the total, stays at the foot of the
+screen until the end of the list reaches it.
+
+An **empty basket** shows three entries "on the shelf": from the collection
+chosen in the **Basket** section's **Products shown in an empty basket**
+(all products if none); the empty drawer takes three from all products.
+Under **Theme
+settings → Basket → Empty basket**, **Heading over the suggested products**
+and **Link to every product** rename them; empty fields use "On the shelf
+now" and "See the whole catalogue".
+
 ### Gift wrapping
 
 **Offer gift wrapping** adds a gift wrap option to the basket. With no
 **Gift wrap product** chosen it is free and recorded as a note on the order;
-with a product chosen, that product is added when the shopper ticks the box
+with a product chosen, that product is added when the shopper checks the box
 (and the option hides while it is unavailable). **Let shoppers add a gift
 message** adds a message field.
 
@@ -494,7 +528,7 @@ message** adds a message field.
 The **Colophon** (footer) takes **Links** (a menu), **Text**, **Facts** (up
 to six term/value pairs) and one **Newsletter** block. Settings: policy
 links, social links, country and language selector, payment icons, Follow on
-Shop, **Show the shop's name** set large across the foot (with its own colour
+Shop, **Show the shop's name** set large across the foot (with its own color
 scheme), and **Name the typefaces** ("Set in …" in the imprint line).
 
 Social links are entered once under **Theme settings → Social media**
@@ -502,12 +536,20 @@ Social links are entered once under **Theme settings → Social media**
 
 ### Newsletter popup
 
-The **Promo pop-up** section lives in the overlay group and is off until you
-add it. Settings: image, label, heading, text, an optional **Discount code**
-shown with a copy button after sign-up (create it under **Discounts**
-first), **Show after** (seconds), **Show again after closing**, and **Also
-show on exit intent** (desktop). It is never shown again to someone who
-signs up. It traps focus, closes with Escape and returns focus.
+The **Promo pop-up** section lives in the overlay group and is installed
+there; hide or remove it to switch it off. It is a ruled sign-up **slip**
+that slides out from behind the spine (it rises above the bottom bar on a
+phone) with a numbered tab, "The dispatch, No. 01". It covers a corner of the
+page, never the whole of it, so the shop stays in reach while it is out.
+
+Settings: image, **Label** and **Issue number** (the tab), heading, text, an
+optional **Discount code** shown with a copy button after sign-up (create it
+under **Discounts** first), **Show after** (seconds), **Show again after
+closing**, and **Also show on exit intent** (desktop). It is never shown
+again to someone who signs up or to a signed-in customer who already
+accepts marketing, never over an open drawer, and never while a shopper is
+typing in a form. Escape or **Close** puts it away and returns focus. In the
+theme editor it shows only while the section is selected.
 
 ## 15. Performance and accessibility
 
@@ -533,7 +575,7 @@ Built in; nothing to switch on:
 
 Keep your own content accessible too: write alt text for images (Shopify
 admin, on each image), a description for each video, and check contrast if
-you change a colour scheme.
+you change a color scheme.
 
 ## 16. FAQ and troubleshooting
 

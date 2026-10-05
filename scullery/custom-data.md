@@ -65,6 +65,7 @@ further setup. All are optional.
 | `batch` | Single line text | Particulars | `No. 14` |
 | `use` | Single line text | Particulars | `Finishing, dressings` |
 | `pairings` | List of product references | **Companions** section on the product page | Two or three products |
+| `contents` | List of product references | **Contents** block on the product page: what is in a box or set, as numbered rows | The jars in a gift box |
 | `preorder_ship_date` | Date | Pre-order note on the Buy buttons block | 3 March 2027 |
 
 Notes:

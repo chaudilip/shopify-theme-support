@@ -12,7 +12,7 @@ product is a catalogue **entry**.
 ## Guides
 
 - **[Setting up Scullery](setup)**: installing, the spine and drawers,
-  colour schemes and typography, every section and product block,
+  color schemes and typography, every section and product block,
   performance and accessibility, and an FAQ. No coding involved.
 - **[Custom data](custom-data)**: tasting notes, particulars, companions,
   ingredients, nutrition and allergens with Shopify metafields, and linking
@@ -23,7 +23,7 @@ product is a catalogue **entry**.
 Each of these is covered in the setup guide.
 
 - [The spine and drawers](setup#2-the-spine-the-folio-and-the-drawers)
-- [Colour schemes](setup#5-colour-schemes) and [typography](setup#6-typography)
+- [Color schemes](setup#5-color-schemes) and [typography](setup#6-typography)
 - [Home page sections](setup#8-home-page-sections)
 - [Collections: shelves and ledger](setup#10-collections-and-look-up-results)
 - [Product page blocks](setup#11-product-page), [image zoom](setup#image-zoom)
